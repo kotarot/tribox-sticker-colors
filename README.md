@@ -14,11 +14,12 @@ Requirements
 Usage
 -----
 
-    python3 tribox-sticker-colors.py
+    python3 tribox_sticker_colors.py
 
 Results
 -------
 
+The program outputs tables in both CSV and HTML.
 You can view the output html table in the result demo page at:  
 [http://www.terabo.net/demos/tribox-sticker-colors/delta-e-cie2000.html](http://www.terabo.net/demos/tribox-sticker-colors/delta-e-cie2000.html)
 
