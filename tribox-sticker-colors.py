@@ -90,7 +90,7 @@ def output_csv():
         lab1 = LabColor(c1['lab'][0], c1['lab'][1], c1['lab'][2])
         for c2 in colors:
             if c1['id'] == c2['id']:
-                line += '-1,'
+                line += '0,'
             else:
                 lab2 = LabColor(c2['lab'][0], c2['lab'][1], c2['lab'][2])
                 line += str(delta_e_cie2000(lab1, lab2)) + ','
